@@ -2,7 +2,7 @@
 
 import useFooterNavItems from "@/app/hooks/use/useFooterNavItems";
 import useNavItems from "@/app/hooks/use/useNavItems";
-import Menu from "@/app/components/new-components/molecules/Menu/Menu";
+import Menu from "@/app/components/molecules/Menu/Menu";
 import { SetStateAction } from "react";
 import { usePathname } from "next/navigation";
 import FooterLogo from '@/app/assets/logo/Enfold-logo-white.png';

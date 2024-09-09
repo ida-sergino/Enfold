@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "@/app/components/new-components/atoms/Title/Title";
-import Text from "@/app/components/new-components/atoms/Text/Text";
+import Text from "@/app/components/atoms/Text/Text";
 import Button from "@/app/components/new-components/atoms/Button/Button";
 import cardBgOne from "@/app/assets/section_with_buckets/card-bg-1.png";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";

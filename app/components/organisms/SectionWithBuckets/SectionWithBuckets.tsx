@@ -1,8 +1,8 @@
 import React from "react";
 
 import Title from "@/app/components/new-components/atoms/Title/Title";
-import Text from "@/app/components/new-components/atoms/Text/Text"; // Import the Text component correctly
-import Card from "@/app/components/new-components/molecules/Card/Card";
+import Text from "@/app/components/atoms/Text/Text"; // Import the Text component correctly
+import Card from "@/app/components/molecules/Card/Card";
 import { BucketProps } from "./types/types";
 
 export default function SectionBucket({

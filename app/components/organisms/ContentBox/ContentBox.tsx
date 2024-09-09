@@ -2,7 +2,7 @@ import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import Link from "next/link";
 import Title from '@/app/components/new-components/atoms/Title/Title';
-import Text from '@/app/components/new-components/atoms/Text/Text';
+import Text from '@/app/components/atoms/Text/Text';
 import { ContentBoxProps } from './types/types';
 
 const Section: React.FC<ContentBoxProps> = ({ ContentBox }) => {

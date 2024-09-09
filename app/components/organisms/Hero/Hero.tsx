@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Title from "@/app/components/new-components/atoms/Title/Title";
-import Text from "@/app/components/new-components/atoms/Text/Text";
+import Text from "@/app/components/atoms/Text/Text";
 import Button from "@/app/components/new-components/atoms/Button/Button";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import { usePathname } from "next/navigation";
