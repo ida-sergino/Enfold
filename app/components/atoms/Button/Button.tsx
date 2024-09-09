@@ -12,7 +12,7 @@ type ButtonProps = {
 
 const variants = {
   variant: {
-    default: "bg-enfold_orange flex transition ease-in-out delay-150 text-enfold_blue_dark justify-center items-center hover:scale-105 rounded-xl gap-2",
+    default: "bg-enfold_orange flex transition ease-in-out delay-150 text-enfold_blue_dark justify-between items-center hover:scale-105 rounded-xl gap-2",
     destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
     outline: "border border-input bg-background hover:bg-accent hover:text-accent-foreground rounded-xl",
     secondary: "bg-secondary text-black hover:bg-secondary/80",
@@ -20,7 +20,7 @@ const variants = {
     link: "text-primary underline-offset-4 hover:underline",
   },
   size: {
-    default: "h-10 px-4 py-2 w-full max-w-[150px]",
+    default: "h-10 px-4 py-2 w-full max-w-[180px]",
     sm: "h-9 rounded-md px-3",
     lg: "h-11 rounded-md px-8",
     icon: "h-10 w-10",

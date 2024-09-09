@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Title from "@/app/components/new-components/atoms/Title/Title";
+import Title from "@/app/components/atoms/Title/Title";
 import Text from "@/app/components/atoms/Text/Text";
-import Button from "@/app/components/new-components/atoms/Button/Button";
+import Button from "@/app/components/atoms/Button/Button";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import { usePathname } from "next/navigation";
 import { HeroProps } from "./types/types";
@@ -58,7 +58,7 @@ const Hero: React.FC<HeroProps> = ({
         <Title element="h1">{Hero.banner_title}</Title>
         {Hero.banner_description && <Text className={styles.description}>{Hero.banner_description}</Text>}
         {Hero.call_to_action?.title && (
-          <Button className="mt-10">
+          <Button className="mt-10 font-medium">
             {Hero.call_to_action?.title}{" "}
             <span className={styles.arrowIcon}>
               <ArrowRightIcon />

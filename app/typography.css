@@ -22,3 +22,7 @@ header a {
 a {
     font-family: "GeneralSans-Variable", sans-serif;
 }
+
+body {
+    font-size: 16px;
+}

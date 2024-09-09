@@ -6,7 +6,7 @@ interface TextProps {
   className?: string;
 }
 
-const defaultStyles = "text-l leading-relaxed";
+const defaultStyles = "text-xl leading-relaxed";
 
 const Text: React.FC<TextProps> = ({ children, className }) => {
   return (

@@ -1,7 +1,7 @@
 const requireComponent = require.context(
   '../', // The relative path of the components folder
   true, // Whether or not to look in subfolders
-  /\/(new-components\/(atoms|molecules|organisms))\/[^_][\w-]+\/[^_][\w-]+\.tsx$/ // The regular expression to match component filenames
+  /\/(atoms|molecules|organisms)\/[^_][\w-]+\/[^_][\w-]+\.tsx$/ // The regular expression to match component filenames
 );
 
 export const loadComponents = () => {

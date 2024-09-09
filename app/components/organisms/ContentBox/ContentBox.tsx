@@ -1,7 +1,7 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import Link from "next/link";
-import Title from '@/app/components/new-components/atoms/Title/Title';
+import Title from '@/app/components/atoms/Title/Title';
 import Text from '@/app/components/atoms/Text/Text';
 import { ContentBoxProps } from './types/types';
 
@@ -20,7 +20,7 @@ const Section: React.FC<ContentBoxProps> = ({ ContentBox }) => {
   const contentBoxClass = `bg-contentbox bg-cover bg-no-repeat bg-left bg-center container mx-auto px-8 my-8 md:pl-0 md:my-24 flex flex-wrap justify-between md:flex-nowrap text-left ${
     ContentBox.image_alignment === 'Left' ? 'flex-row' : 'flex-row-reverse'
   }`;
-  const contentWrapperClass = `md:mt-20 ${ContentBox.image_alignment === 'Left' ? 'md:pl-20 md:pr-12 md:max-w-[600px]' : 'md:pr-20 md:pl-12 lg:pl-20 md:max-w-[600px]'}`;
+  const contentWrapperClass = `md:mt-20 ${ContentBox.image_alignment === 'Left' ? 'py-8 px-0 md:p-8 md:max-w-[600px]' : 'py-8 px-0 md:p-8 md:max-w-[600px]'}`;
 
 
   function contentSection(key: any) {

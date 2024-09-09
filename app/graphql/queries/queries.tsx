@@ -174,33 +174,7 @@ export const GET_PAGES_DATA = gql`
                   __typename
                   card {
                     category
-                    content {
-                      ... on PagePageComponentsListBlockCardsCardBlockContentText {
-                        text {
-                          description
-                        }
-                      }
-                      ... on PagePageComponentsListBlockCardsCardBlockContentTitle {
-                        title {
-                          title
-                        }
-                      }
-                      ... on PagePageComponentsListBlockCardsCardBlockContentImage {
-                        image {
-                          alt
-                          srcConnection {
-                            edges {
-                              node {
-                                title
-                                url
-                              }
-                            }
-                          }
-                          height
-                          width
-                        }
-                      }
-                    }
+                    text
                     imageConnection {
                       edges {
                         node {

@@ -5,7 +5,6 @@ import SkeletonLoader from '@/app/components/utils/SkeletonLoader/SkeletonLoader
 import { mapComponents } from '@/app/components/utils/ComponentMappings';
 import useAllPages from '@/app/hooks/use/useAllPages';
 import ErrorPage from '@/app/404';
-import Form from "@/app/components/organisms/Form/Form";
 
 function ContentPageComponent() {
   const { loading, data } = useAllPages();
@@ -27,7 +26,6 @@ function ContentPageComponent() {
   return (
     <>
       <ComponentList componentList={componentList} />
-      <Form />
     </>
   );
   
