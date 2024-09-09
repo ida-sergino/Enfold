@@ -1,0 +1,114 @@
+{
+    "pages": {
+      "all_footer": {
+        "items": [
+          {
+            "copyright": {
+              "embedded_itemsConnection": {
+                "edges": [
+                  
+                ],
+                "__typename": "FooterCopyrightEmbeddedItemsConnection"
+              },
+              "json": {
+                "attrs": {
+                  
+                },
+                "children": [
+                  {
+                    "type": "p",
+                    "attrs": {
+                      
+                    },
+                    "children": [
+                      {
+                        "text": "Copyright © 2024. Enfold. All rights reserved."
+                      }
+                    ],
+                    "uid": "ba38f69995c844daaae17f966ba84cdf"
+                  }
+                ],
+                "type": "doc",
+                "uid": "5b2ad7a70a954458b6fda3e6ca5bc720",
+                "_version": 5
+              },
+              "__typename": "FooterCopyright"
+            },
+            "social": {
+              "social_share": [
+                {
+                  "iconConnection": {
+                    "edges": [
+                      {
+                        "node": {
+                          "url": "https://azure-eu-images.contentstack.com/v3/assets/blt066d3ff1a08f7cf8/bltd984cd6315e30a16/66d4b2bf27beb5830e0eb129/LinkedIn_icon.svg",
+                          "title": "LinkedIn_icon.svg",
+                          "filename": "LinkedIn_icon.svg",
+                          "__typename": "SysAsset"
+                        },
+                        "__typename": "SysAssetEdge"
+                      }
+                    ],
+                    "__typename": "SysAssetConnection"
+                  },
+                  "link": {
+                    "href": "https://linkedIn.com/enfold",
+                    "title": "LinkedIn",
+                    "__typename": "Link"
+                  },
+                  "__typename": "FooterSocialSocialShare"
+                }
+              ],
+              "__typename": "FooterSocial"
+            },
+            "title": "Enfold - Footer",
+            "navigation": {
+              "link": [
+                {
+                  "href": "/privacy-policy",
+                  "title": "Privacy policy",
+                  "__typename": "Link"
+                },
+                {
+                  "href": "/terms-and-conditions",
+                  "title": "Terms and conditions",
+                  "__typename": "Link"
+                },
+                {
+                  "href": "/contact-us",
+                  "title": "Contact us",
+                  "__typename": "Link"
+                }
+              ],
+              "__typename": "FooterNavigation"
+            },
+            "logoConnection": {
+              "edges": [
+                {
+                  "node": {
+                    "filename": "company-logo.svg",
+                    "content_type": "image/svg+xml",
+                    "description": "",
+                    "dimension": {
+                      "height": 26,
+                      "width": 130,
+                      "__typename": "SysAssetDimension"
+                    },
+                    "file_size": 11085,
+                    "metadata": null,
+                    "title": "Enfold",
+                    "url": "https://azure-eu-images.contentstack.com/v3/assets/blt066d3ff1a08f7cf8/blt6e87efcb135c6371/66680b49e120f8000df5b866/company-logo.svg",
+                    "__typename": "SysAsset"
+                  },
+                  "__typename": "SysAssetEdge"
+                }
+              ],
+              "__typename": "SysAssetConnection"
+            },
+            "__typename": "Footer"
+          }
+        ],
+        "__typename": "AllFooter"
+      }
+    }
+  }

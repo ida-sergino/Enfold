@@ -1,0 +1,19 @@
+{
+    "cases": {
+      "all_case": {
+        "items": [
+          {
+            "title": "Avery-dennison",
+            "url": "/case/avery-dennison",
+            "__typename": "Case"
+          },
+          {
+            "title": "TU",
+            "url": "/case/tu",
+            "__typename": "Case"
+          }
+        ],
+        "__typename": "AllCase"
+      }
+    }
+  }

@@ -1,0 +1,881 @@
+{
+  "pages": [
+    {
+      "all_page": {
+        "items": [
+          {
+            "page_components": [
+              {
+                "__typename": "PagePageComponentsHero",
+                "Hero": {
+                  "banner_description": "Lorem ipsum dolor sit amet, consectetur adipiscing\nelit, sed do eiusmod tempor incididunt ut labore et\ndolore magna aliqua",
+                  "banner_imageConnection": {
+                    "edges": [],
+                    "__typename": "SysAssetConnection"
+                  },
+                  "banner_title": "The tech solution that always fits.",
+                  "bg_color": "#ffffff",
+                  "call_to_action": {
+                    "href": "#",
+                    "title": "Get in touch",
+                    "__typename": "Link"
+                  },
+                  "text_color": "#ffffff",
+                  "__typename": "PagePageComponentsHeroBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSectionWithBuckets",
+                "section_with_buckets": {
+                  "buckets": [
+                    {
+                      "variant": null,
+                      "description": "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit, sed do\neiusmod tempor incididunt ut\nlabore et dolore magna aliqua.",
+                      "call_to_action": {
+                        "href": "#",
+                        "title": "Get in touch",
+                        "__typename": "Link"
+                      },
+                      "iconConnection": {
+                        "edges": [],
+                        "__typename": "SysAssetConnection"
+                      },
+                      "title_h3": "Powerfull APIs",
+                      "__typename": "PagePageComponentsSectionWithBucketsBlockBuckets"
+                    },
+                    {
+                      "variant": null,
+                      "description": "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit, sed do\neiusmod tempor incididunt ut\nlabore et dolore magna aliqua.",
+                      "call_to_action": {
+                        "href": "#",
+                        "title": "Get in touch",
+                        "__typename": "Link"
+                      },
+                      "iconConnection": {
+                        "edges": [],
+                        "__typename": "SysAssetConnection"
+                      },
+                      "title_h3": "Content composer",
+                      "__typename": "PagePageComponentsSectionWithBucketsBlockBuckets"
+                    },
+                    {
+                      "variant": null,
+                      "description": "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit, sed do\neiusmod tempor incididunt ut\nlabore et dolore magna aliqua.",
+                      "call_to_action": {
+                        "href": "#",
+                        "title": "Get in touch",
+                        "__typename": "Link"
+                      },
+                      "iconConnection": {
+                        "edges": [],
+                        "__typename": "SysAssetConnection"
+                      },
+                      "title_h3": "Flexible content structures",
+                      "__typename": "PagePageComponentsSectionWithBucketsBlockBuckets"
+                    },
+                    {
+                      "variant": "special-one",
+                      "description": "",
+                      "call_to_action": {
+                        "href": "#",
+                        "title": "Read more",
+                        "__typename": "Link"
+                      },
+                      "iconConnection": {
+                        "edges": [],
+                        "__typename": "SysAssetConnection"
+                      },
+                      "title_h3": "Interactive portals",
+                      "__typename": "PagePageComponentsSectionWithBucketsBlockBuckets"
+                    }
+                  ],
+                  "bucket_tabular": false,
+                  "description": "Our approach ensures that even the most challenging operations are executed with ease and efficiency, allowing you to focus on what truly matters. ",
+                  "title_h2": "Making complex operations seamless",
+                  "__typename": "PagePageComponentsSectionWithBucketsBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsCallToActionBanner",
+                "call_to_action_banner": {
+                  "button": {
+                    "label": "Get in touch",
+                    "link": {
+                      "href": "#",
+                      "title": "Get in touch",
+                      "__typename": "Link"
+                    },
+                    "__typename": "PagePageComponentsCallToActionBannerBlockButton"
+                  },
+                  "text": "Book a call with us",
+                  "title": "Discover your possibilities",
+                  "__typename": "PagePageComponentsCallToActionBannerBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": "left",
+                        "text": "Our customer cases",
+                        "element": "h2",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": null,
+                        "color": "#000000",
+                        "text": "\u003Cp\u003ELorem ipsum dolor sit amet, consectetur adipiscing elit, sed\u003C/p\u003E\u003Cp\u003Edo eiusmod tempor incididunt ut labore et dolore magna\u003C/p\u003E\u003Cp\u003Ealiqua.\u003C/p\u003E",
+                        "size": null,
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsList",
+                "list": {
+                  "cards": [
+                    {
+                      "__typename": "PagePageComponentsListBlockCardsCard",
+                      "card": {
+                        "category": "",
+                        "content": [
+                          {
+                            "text": {
+                              "description": "hello",
+                              "__typename": "PagePageComponentsListBlockCardsCardBlockContentTextBlock"
+                            },
+                            "__typename": "PagePageComponentsListBlockCardsCardBlockContentText"
+                          }
+                        ],
+                        "imageConnection": {
+                          "edges": [],
+                          "__typename": "SysAssetConnection"
+                        },
+                        "title": "Title",
+                        "__typename": "PagePageComponentsListBlockCardsCardBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsListBlockCardsCard",
+                      "card": {
+                        "category": "",
+                        "content": [],
+                        "imageConnection": {
+                          "edges": [],
+                          "__typename": "SysAssetConnection"
+                        },
+                        "title": "title",
+                        "__typename": "PagePageComponentsListBlockCardsCardBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsListBlockCardsCard",
+                      "card": {
+                        "category": "",
+                        "content": [],
+                        "imageConnection": {
+                          "edges": [],
+                          "__typename": "SysAssetConnection"
+                        },
+                        "title": "Title",
+                        "__typename": "PagePageComponentsListBlockCardsCardBlock"
+                      }
+                    }
+                  ],
+                  "header": "",
+                  "__typename": "PagePageComponentsListBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsContentBox",
+                "ContentBox": {
+                  "call_to_action": {
+                    "href": "#",
+                    "title": "Get in touch",
+                    "__typename": "Link"
+                  },
+                  "description": "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit, sed do\neiusmod tempor incididunt ut labore\net dolore magna aliqua.",
+                  "imageConnection": {
+                    "edges": [
+                      {
+                        "node": {
+                          "title": "about-us.png",
+                          "url": "https://azure-eu-images.contentstack.com/v3/assets/blt066d3ff1a08f7cf8/blt9ca6ca3549e95182/66db17c693e60b02a527f8ae/about-us.png",
+                          "__typename": "SysAsset"
+                        },
+                        "__typename": "SysAssetEdge"
+                      }
+                    ],
+                    "__typename": "SysAssetConnection"
+                  },
+                  "image_alignment": "Right",
+                  "title_h2": "More about us",
+                  "__typename": "PagePageComponentsContentBoxBlock"
+                }
+              }
+            ],
+            "title": "Homepage",
+            "url": "/",
+            "__typename": "Page"
+          },
+          {
+            "page_components": [
+              {
+                "__typename": "PagePageComponentsBreadcrumb",
+                "breadcrumb": {
+                  "levels": 2,
+                  "__typename": "PagePageComponentsBreadcrumbBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": "left",
+                        "text": "What we do",
+                        "element": "h1",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": null,
+                        "color": "#525252",
+                        "text": "At our agency, we specialize in leveraging Contentstack to deliver exceptional content management solutions. Our team of experts works closely with clients to create, manage, and optimize content that drives engagement and growth. By utilizing Contentstack's powerful features, we ensure seamless content delivery across multiple channels, enhancing your brand's presence and impact. Whether it's developing a robust content strategy or executing complex content operations, we are dedicated to helping you achieve your business goals with precision and efficiency.",
+                        "size": null,
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ededed",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": null,
+                        "text": "Alot of content",
+                        "element": "h2",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": null,
+                        "color": "#000000",
+                        "text": "\u003Cp\u003EMore content\u003C/p\u003E",
+                        "size": null,
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              }
+            ],
+            "title": "What we do",
+            "url": "/what-we-do",
+            "__typename": "Page"
+          },
+          {
+            "page_components": [
+              {
+                "__typename": "PagePageComponentsBreadcrumb",
+                "breadcrumb": {
+                  "levels": 2,
+                  "__typename": "PagePageComponentsBreadcrumbBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": "left",
+                        "text": "Partners",
+                        "element": "h1",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": null,
+                        "color": "#000000",
+                        "text": "Our partner program is designed to leverage cutting-edge technologies such as headless CMS, React, and Single Page Applications (SPAs) to deliver exceptional content experiences. We collaborate with industry-leading platforms like Contentstack, Contentful, and Sanity to provide robust and scalable content management solutions. By partnering with us, you gain access to a wealth of expertise and resources that help you optimize your content strategy and execution. Join us at Enfold, where we turn your content visions into reality, powered by the best technologies and platforms in the industry.",
+                        "size": null,
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#f7f7f7",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": "left",
+                        "text": "More content",
+                        "element": "h2",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": "left",
+                        "color": "#000000",
+                        "text": "\u003Cp\u003ELorem ipsum\u003C/p\u003E",
+                        "size": "12px",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": null,
+                        "text": "Even more content",
+                        "element": "h2",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": null,
+                        "color": "#000000",
+                        "text": "\u003Cp\u003EMore content\u003C/p\u003E",
+                        "size": null,
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              }
+            ],
+            "title": "Partners",
+            "url": "/partners",
+            "__typename": "Page"
+          },
+          {
+            "page_components": [
+              {
+                "__typename": "PagePageComponentsBreadcrumb",
+                "breadcrumb": {
+                  "levels": 2,
+                  "__typename": "PagePageComponentsBreadcrumbBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": null,
+                        "text": "Contact",
+                        "element": "h1",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": null,
+                        "color": "#000000",
+                        "text": "We'd love to hear from you! Whether you have a question about our services, need assistance with a project, or just want to say hello, our team is ready to answer all your questions.",
+                        "size": null,
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              }
+            ],
+            "title": "Contact",
+            "url": "/contact",
+            "__typename": "Page"
+          },
+          {
+            "page_components": [
+              {
+                "__typename": "PagePageComponentsBreadcrumb",
+                "breadcrumb": {
+                  "levels": 2,
+                  "__typename": "PagePageComponentsBreadcrumbBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": "left",
+                        "text": "About us",
+                        "element": "h1",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": "left",
+                        "color": "#000000",
+                        "text": "Based in Utrecht, we are dedicated to creating innovative digital experiences that captivate and engage audiences. Our team combines creativity, technology, and strategic thinking to help brands tell their stories in compelling ways. We work closely with partners to deliver high-quality solutions that drive results and exceed expectations. Join us on our mission to turn your vision into reality.",
+                        "size": "16px",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsOurTeam"
+              }
+            ],
+            "title": "About us",
+            "url": "/about-us",
+            "__typename": "Page"
+          },
+          {
+            "page_components": [
+              {
+                "__typename": "PagePageComponentsBreadcrumb",
+                "breadcrumb": {
+                  "levels": 2,
+                  "__typename": "PagePageComponentsBreadcrumbBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": "left",
+                        "text": "Cases",
+                        "element": "h1",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSectionWithCards"
+              }
+            ],
+            "title": "Cases",
+            "url": "/cases",
+            "__typename": "Page"
+          }
+        ],
+        "__typename": "AllPage"
+      }
+    },
+    {
+      "all_page": {
+        "items": [
+          {
+            "page_components": [
+              {
+                "__typename": "PagePageComponentsHero"
+              },
+              {
+                "__typename": "PagePageComponentsSectionWithBuckets"
+              },
+              {
+                "__typename": "PagePageComponentsCallToActionBanner"
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": "left",
+                        "text": "Our customer cases",
+                        "element": "h2",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": null,
+                        "color": "#000000",
+                        "text": "\u003Cp\u003ELorem ipsum dolor sit amet, consectetur adipiscing elit, sed\u003C/p\u003E\u003Cp\u003Edo eiusmod tempor incididunt ut labore et dolore magna\u003C/p\u003E\u003Cp\u003Ealiqua.\u003C/p\u003E",
+                        "size": null,
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsList"
+              },
+              {
+                "__typename": "PagePageComponentsContentBox"
+              }
+            ],
+            "__typename": "Page"
+          },
+          {
+            "page_components": [
+              {
+                "__typename": "PagePageComponentsBreadcrumb"
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": "left",
+                        "text": "What we do",
+                        "element": "h1",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": null,
+                        "color": "#525252",
+                        "text": "At our agency, we specialize in leveraging Contentstack to deliver exceptional content management solutions. Our team of experts works closely with clients to create, manage, and optimize content that drives engagement and growth. By utilizing Contentstack's powerful features, we ensure seamless content delivery across multiple channels, enhancing your brand's presence and impact. Whether it's developing a robust content strategy or executing complex content operations, we are dedicated to helping you achieve your business goals with precision and efficiency.",
+                        "size": null,
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ededed",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": null,
+                        "text": "Alot of content",
+                        "element": "h2",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": null,
+                        "color": "#000000",
+                        "text": "\u003Cp\u003EMore content\u003C/p\u003E",
+                        "size": null,
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              }
+            ],
+            "__typename": "Page"
+          },
+          {
+            "page_components": [
+              {
+                "__typename": "PagePageComponentsBreadcrumb"
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": "left",
+                        "text": "Partners",
+                        "element": "h1",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": null,
+                        "color": "#000000",
+                        "text": "Our partner program is designed to leverage cutting-edge technologies such as headless CMS, React, and Single Page Applications (SPAs) to deliver exceptional content experiences. We collaborate with industry-leading platforms like Contentstack, Contentful, and Sanity to provide robust and scalable content management solutions. By partnering with us, you gain access to a wealth of expertise and resources that help you optimize your content strategy and execution. Join us at Enfold, where we turn your content visions into reality, powered by the best technologies and platforms in the industry.",
+                        "size": null,
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#f7f7f7",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": "left",
+                        "text": "More content",
+                        "element": "h2",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": "left",
+                        "color": "#000000",
+                        "text": "\u003Cp\u003ELorem ipsum\u003C/p\u003E",
+                        "size": "12px",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": null,
+                        "text": "Even more content",
+                        "element": "h2",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": null,
+                        "color": "#000000",
+                        "text": "\u003Cp\u003EMore content\u003C/p\u003E",
+                        "size": null,
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              }
+            ],
+            "__typename": "Page"
+          },
+          {
+            "page_components": [
+              {
+                "__typename": "PagePageComponentsBreadcrumb"
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": null,
+                        "text": "Contact",
+                        "element": "h1",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": null,
+                        "color": "#000000",
+                        "text": "We'd love to hear from you! Whether you have a question about our services, need assistance with a project, or just want to say hello, our team is ready to answer all your questions.",
+                        "size": null,
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              }
+            ],
+            "__typename": "Page"
+          },
+          {
+            "page_components": [
+              {
+                "__typename": "PagePageComponentsBreadcrumb"
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": "left",
+                        "text": "About us",
+                        "element": "h1",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    },
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksText",
+                      "text": {
+                        "alignment": "left",
+                        "color": "#000000",
+                        "text": "Based in Utrecht, we are dedicated to creating innovative digital experiences that captivate and engage audiences. Our team combines creativity, technology, and strategic thinking to help brands tell their stories in compelling ways. We work closely with partners to deliver high-quality solutions that drive results and exceed expectations. Join us on our mission to turn your vision into reality.",
+                        "size": "16px",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTextBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsOurTeam",
+                "our_team": {
+                  "description": "At Enfold, we are proud to be part of the Cronos Group, a collective of innovative companies dedicated to driving digital transformation. Our expertise lies in creating seamless, engaging, and impactful content experiences that resonate with audiences. By leveraging cutting-edge technologies and innovative strategies, we help brands tell their stories more effectively and connect with their customers on a deeper level. Our commitment to excellence and passion for creativity drive us to deliver solutions that not only meet but exceed our clients' expectations. Join us at Enfold, where we turn your content visions into reality.",
+                  "employees": [
+                    {
+                      "designation": "Front-end developer",
+                      "imageConnection": {
+                        "edges": [
+                          {
+                            "node": {
+                              "title": "sergino-martina.jpg",
+                              "url": "https://azure-eu-images.contentstack.com/v3/assets/blt066d3ff1a08f7cf8/blte3be75198062c1b6/66d73a2021a66a548b148771/sergino-martina.jpg",
+                              "__typename": "SysAsset"
+                            },
+                            "__typename": "SysAssetEdge"
+                          }
+                        ],
+                        "__typename": "SysAssetConnection"
+                      },
+                      "name": "Sergino Martina",
+                      "__typename": "PagePageComponentsOurTeamBlockEmployees"
+                    }
+                  ],
+                  "title_h2": "We are proud",
+                  "__typename": "PagePageComponentsOurTeamBlock"
+                }
+              }
+            ],
+            "__typename": "Page"
+          },
+          {
+            "page_components": [
+              {
+                "__typename": "PagePageComponentsBreadcrumb"
+              },
+              {
+                "__typename": "PagePageComponentsSection",
+                "section": {
+                  "bg_color": "#ffffff",
+                  "modular_blocks": [
+                    {
+                      "__typename": "PagePageComponentsSectionBlockModularBlocksTitle",
+                      "title": {
+                        "alignment": "left",
+                        "text": "Cases",
+                        "element": "h1",
+                        "__typename": "PagePageComponentsSectionBlockModularBlocksTitleBlock"
+                      }
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionBlock"
+                }
+              },
+              {
+                "__typename": "PagePageComponentsSectionWithCards",
+                "section_with_cards": {
+                  "cards": [
+                    {
+                      "call_to_action": {
+                        "href": "/tu",
+                        "title": "Link",
+                        "__typename": "Link"
+                      },
+                      "description": "Tu is een nederlands bedrijf met velen vestigingen",
+                      "title_h3": "TU",
+                      "__typename": "PagePageComponentsSectionWithCardsBlockCards"
+                    }
+                  ],
+                  "__typename": "PagePageComponentsSectionWithCardsBlock"
+                }
+              }
+            ],
+            "__typename": "Page"
+          }
+        ],
+        "__typename": "AllPage"
+      }
+    }
+  ]
+}

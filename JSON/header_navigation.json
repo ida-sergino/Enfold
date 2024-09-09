@@ -1,0 +1,100 @@
+{
+    "pages": {
+      "all_header": {
+        "total": 1,
+        "items": [
+          {
+            "navigation_menu": [
+              {
+                "label": "What we do",
+                "page_referenceConnection": {
+                  "edges": [
+                    {
+                      "node": {
+                        "title": "What we do",
+                        "url": "/what-we-do",
+                        "__typename": "Page"
+                      },
+                      "__typename": "HeaderNavigationMenuPageReferenceEdge"
+                    }
+                  ],
+                  "__typename": "HeaderNavigationMenuPageReferenceConnection"
+                },
+                "__typename": "HeaderNavigationMenu"
+              },
+              {
+                "label": "Cases",
+                "page_referenceConnection": {
+                  "edges": [
+                    {
+                      "node": {
+                        "title": "Cases",
+                        "url": "/cases",
+                        "__typename": "Page"
+                      },
+                      "__typename": "HeaderNavigationMenuPageReferenceEdge"
+                    }
+                  ],
+                  "__typename": "HeaderNavigationMenuPageReferenceConnection"
+                },
+                "__typename": "HeaderNavigationMenu"
+              },
+              {
+                "label": "Partners",
+                "page_referenceConnection": {
+                  "edges": [
+                    {
+                      "node": {
+                        "title": "Partners",
+                        "url": "/partners",
+                        "__typename": "Page"
+                      },
+                      "__typename": "HeaderNavigationMenuPageReferenceEdge"
+                    }
+                  ],
+                  "__typename": "HeaderNavigationMenuPageReferenceConnection"
+                },
+                "__typename": "HeaderNavigationMenu"
+              },
+              {
+                "label": "About us",
+                "page_referenceConnection": {
+                  "edges": [
+                    {
+                      "node": {
+                        "title": "About us",
+                        "url": "/about-us",
+                        "__typename": "Page"
+                      },
+                      "__typename": "HeaderNavigationMenuPageReferenceEdge"
+                    }
+                  ],
+                  "__typename": "HeaderNavigationMenuPageReferenceConnection"
+                },
+                "__typename": "HeaderNavigationMenu"
+              },
+              {
+                "label": "Contact Us",
+                "page_referenceConnection": {
+                  "edges": [
+                    {
+                      "node": {
+                        "title": "Contact",
+                        "url": "/contact",
+                        "__typename": "Page"
+                      },
+                      "__typename": "HeaderNavigationMenuPageReferenceEdge"
+                    }
+                  ],
+                  "__typename": "HeaderNavigationMenuPageReferenceConnection"
+                },
+                "__typename": "HeaderNavigationMenu"
+              }
+            ],
+            "__typename": "Header"
+          }
+        ],
+        "__typename": "AllHeader"
+      }
+    }
+  }

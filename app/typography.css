@@ -1,0 +1,24 @@
+
+@import url('@/app/fonts/Sentient/Fonts/WEB/css/sentient.css');
+@import url('@/app/fonts/GeneralSans/Fonts/WEB/css/general-sans.css');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Sentient-Variable", sans-serif;
+    font-weight: 400;
+}
+
+body, body p{
+    font-family: "GeneralSans-Variable", sans-serif;
+}
+
+body b, body strong, body p b, body p strong {
+    font-family: "GeneralSans-Bold", sans-serif;
+}
+
+header a {
+    font-family: "GeneralSans-Regular", sans-serif;
+}
+
+a {
+    font-family: "GeneralSans-Variable", sans-serif;
+}
